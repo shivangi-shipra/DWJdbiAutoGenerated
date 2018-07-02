@@ -51,7 +51,7 @@ import java.util.List;
             User updateUser = new User(id, user.getFirstName(),user.getLastName(),user.getLogin());
             int i = dao.update(updateUser);
             System.out.println(i);
-            return updateUser
+            return updateUser;
         }
 
     }
