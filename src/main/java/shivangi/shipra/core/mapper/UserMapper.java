@@ -4,14 +4,12 @@ import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.DateTime;
 import org.skife.jdbi.v2.StatementContext;
 import org.skife.jdbi.v2.tweak.ResultSetMapper;
 import shivangi.shipra.core.User;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.ZoneId;
 
 
 public class UserMapper implements ResultSetMapper<User> {

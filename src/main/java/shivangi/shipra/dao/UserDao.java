@@ -2,7 +2,6 @@ package shivangi.shipra.dao;
 
 import org.skife.jdbi.v2.sqlobject.*;
 import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
-import org.skife.jdbi.v2.unstable.BindIn;
 import shivangi.shipra.core.User;
 import shivangi.shipra.core.mapper.UserMapper;
 
