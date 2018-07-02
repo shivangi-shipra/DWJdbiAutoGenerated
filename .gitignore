@@ -1,0 +1,20 @@
+*.gz
+*.iml
+.idea/
+*.ipr
+*.iws
+*/.classpath
+*/.settings
+*/.project
+.project
+.settings
+Document.html
+.DS_Store
+.metadata/
+# Java compiled files
+*target/
+*.class
+Document.html
+# Built files
+build/*.zip
+*.jar
